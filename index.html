@@ -9,22 +9,46 @@
         * {
             margin: 0;
             padding: 0;
+            font-family: "Helvetica";
+            letter-spacing: -2px;
         }
         body {
-            background-image: url('favicon.ico');
+            /* background-image: url('favicon.ico'); */
             background-repeat: no-repeat;
         }
         #container {
             width: 100vw;
             height: 100vh;
             position: absolute;
-            background-color: #6f8f91;
+            display: flex;
+            justify-content: center;
+            /* background-color: #6f8f91; */
+        }
+        #expose {
+            color: #fe483b;
+        }
+        #pitch {
+            margin-top: 20px;
+            width: 500px;
+            transform: rotate(-0.5deg)
+        }
+        a, a:visited {
+            color: #3b45fe;
+        }
+        /* #signal {
+            color: #3b45fe;
+        } */
+        #benefit {
+            background-color: black;
+            color: white;
         }
     </style>
     </head>
     <body>
         <div id="container">
-
+            <div id="pitch">
+                <h1>If you are a journalist with an upcoming <span id="expose">expose</span> on a politican running for office and would like to <span id="benefit">benefit those who were affected</span>, message <a href="https://signal.me/#eu/a6g1ZRFNYrbpQ0L-7yeeSOppO9Xf_d4lR7QATD4cznmRFGIvrC9J7adSTLIV_92-" target="_blank">@alexhall.63</a> on <span id="signal">Signal</span>.</h1>
+            </div>
         </div>
     </body>
 </html>
